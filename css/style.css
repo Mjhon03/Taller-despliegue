@@ -3,13 +3,31 @@
     margin: 0%;
 }
 section{
-    width: 100%;
+    width: 60%;
     height: 50%;
+    margin: 5% auto;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
 }
 img{
     height:50%;
     width: 50%;
+}
+.imgs{
+    width: 60%;
+    height: 50%;
+    background-color: aquamarine;
+}
+.img{
+    width: 10%;
+    height: 10%;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
